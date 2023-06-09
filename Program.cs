@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            int n = int.Parse(Console.ReadLine());
+            /*int n = int.Parse(Console.ReadLine());
             int[,] arr = new int[n, n];
             int[] arrr = new int[n];
 
@@ -52,6 +52,18 @@
 
             Console.Write(max);
 
+*/
+
+            char[] arr = new char[] { 'h', 'e', 'l', 'l', 'o' };
+
+            Array.Reverse(arr);
+            for (int i = 0;i<arr.Length;i++)
+            {
+                
+                Console.Write($"{arr[i]},");
+                
+
+            }
 
 
         }
